@@ -1,0 +1,108 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="es"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="es" class="no-js"> <![endif]-->
+<html lang="es">
+<head>
+	
+	<!-- Basic -->
+	<title>Car One</title>
+	
+	<!-- Define Charset -->
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	
+	<!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Page Description and Author -->
+	<meta name="description" content="Car One"/>
+	<meta name="author" content="Isaac Rodriguez"/>
+	
+	
+	<!-- Bootstrap CSS  -->
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/asset/css/bootstrap.min.css" type="text/css" media="screen">
+
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" type="text/css" media="screen">
+	
+	<!-- Car One CSS Styles  -->
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
+	
+	<!-- Responsive CSS Styles  -->
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/responsive.css" media="screen">
+	
+	<!-- Color CSS Styles  -->
+	
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/colors/blue.css" title="blue" media="screen" />
+	
+	
+	
+	
+	<!-- Car One JS  -->
+     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.min.js"></script>
+     
+<!-- Parallax -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/parallax.js"></script>
+<!-- /Parallax -->
+
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modernizrr.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/asset/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/count-to.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.nicescroll.min.js"></script>
+    
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/mediaelement-and-player.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
+	
+	
+	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<?php wp_head(); ?>
+</head>
+<body>
+
+	<!-- Container -->
+	<div id="container">
+		
+		<!-- Start Header -->
+		
+		<header class="clearfix">
+			
+			<!-- Start Top Bar -->
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<!-- Start Contact Info -->
+							<?php include( TEMPLATEPATH . "/partials/top-info.php") ?>
+							<!-- End Contact Info -->
+						</div>
+						<div class="col-md-4">
+						<ul>
+							
+							<?php include("partials/marcas.php") ?>
+						</ul>
+						</div>
+						<div class="col-md-4">
+							<!-- Start Social Links -->
+							<?php include (TEMPLATEPATH . "/partials/social-networks.php") ?>
+							<!-- End Social Links -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Top Bar -->
+			
+			<?php include(TEMPLATEPATH ."/partials/nav.php") ?>
+			
+		</header>
+		<!-- End Header -->
+		
